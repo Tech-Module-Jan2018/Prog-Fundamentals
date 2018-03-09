@@ -10,8 +10,10 @@ namespace Problem_2.Rectangle_Area
     {
         static void Main(string[] args)
         {
+            //We receive width and height
             double width = double.Parse(Console.ReadLine());
             double height = double.Parse(Console.ReadLine());
+            //Here we do the formula and printing it on the console
             Console.WriteLine($"{width*height:f2}");
         }
     }
